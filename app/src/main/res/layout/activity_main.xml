@@ -7,10 +7,11 @@
     tools:context=".MainActivity">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rv_tab"
+        android:id="@+id/rvTab"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:listitem="@layout/rv_item"
+        tools:itemCount="5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
